@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Almaz/IdeaProjects/CodingBat""><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Almaz/IdeaProjects/CodingBat">
+        <classes>
+            <class name="codingBatTest.warmup1Test.MonkeyTroubleTest">
+                <methods>
+                    <include name="MonkeyTroubleTest"/>
+                </methods>
+            </class>
+            <class name="codingBatTest.warmup1Test.SleepInTest">
+                <methods>
+                    <include name="sleepInTest"/>
+                </methods>
+            </class>
+            <class name="codingBatTest.warmup1Test.SumDoubleTest">
+                <methods>
+                    <include name="sumDoubleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
